@@ -2,7 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 body {
-    font-family: 'Nunito', sans-serif;
-    background-color: #f0f4f8; /* Light background for calmness */
-    color: #048c6c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a
+}
+
+/* Header, main, and footer styles */
+/*header styles*/
+header {
+    background-color: #87CEEB; /* Primary color for header */
+}
+/*main styles*/
+main {
+    background-color: #E6E6FA;
+  /* make element fill the remaining space */
+    flex: 1 0 auto;
+}
+/*footer styles*/
+footer {
+    background-color: #87CEEB;
 }
