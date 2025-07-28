@@ -2,6 +2,14 @@
 
 ## User Stories
 
+### User story overview:
+1. Homepage Hero Section - Creating a welcoming first impression
+2. Mental Health Resources - Providing organized, accessible help
+3. Self-Care Tips - Offering practical wellness techniques
+4. Community Support - Connecting users with support groups
+5. Professional Help Guidance - Directing users to professional care
+6. Mobile-Friendly Experience - Ensuring accessibility across devices
+
 ### User Story 1: Homepage Hero Section
 **AS A** visitor seeking mental health support  
 **I WANT TO** see an welcoming homepage with calming visuals and clear navigation  
