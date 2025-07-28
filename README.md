@@ -66,13 +66,16 @@ The overall design theme draws inspiration from peaceful, natural environments t
 
 **Primary Color:**
 - **Soft Sky Blue** (#87CEEB) - Promotes calm and tranquility
+
 **Secondary Color:**
 - **Mint Green** (#98FB98) - Represents growth and healing
+
 **Third Color:**
 - **Gentle Lavender** (#E6E6FA) - Encourages relaxation and peace
 
 **Highlight Colors:**
 - **Pale Yellow** (#FFFFE0) - For warm highlights and call-to-action elements
+
 **Highlight Colors Light:**
 - **Soft Peach** (#FFDAB9) - For gentle emphasis and interactive elements
 
