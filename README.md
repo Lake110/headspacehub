@@ -9,6 +9,8 @@
 4. Community Support - Connecting users with support groups
 5. Professional Help Guidance - Directing users to professional care
 6. Mobile-Friendly Experience - Ensuring accessibility across devices
+7. Social Connection Platform - Facilitating peer connections
+8. Mental Health Events Display - Showcasing community events and workshops
 
 ### User Story 1: Homepage Hero Section
 **AS A** visitor seeking mental health support  
@@ -111,6 +113,41 @@
 - Optimize images and content for mobile loading speeds
 - Test navigation and user flows on various mobile devices
 - Ensure crisis hotline numbers are click-to-call on mobile
+
+### User Story 7: Social Connection Platform
+**AS A** person feeling isolated and seeking meaningful connections  
+**I WANT TO** connect with others who share similar mental health experiences  
+**SO THAT I CAN** build supportive relationships and feel less alone in my journey
+
+**Acceptance Criteria:**
+- Community features allow users to share experiences and connect safely
+- Peer support options are clearly explained and accessible
+- Connection opportunities are moderated and maintain a safe environment
+- Different types of social connections are available (online forums, meetups, buddy systems)
+
+**Tasks:**
+- Design sections highlighting community connection opportunities
+- Create clear guidelines for safe peer interactions
+- Implement information about online support communities
+- Add resources for local meetup groups and peer support programs
+
+### User Story 8: Mental Health Events Display
+**AS A** community member interested in mental health awareness  
+**I WANT TO** easily discover and learn about upcoming mental health events and workshops  
+**SO THAT I CAN** participate in activities that support my wellness journey and connect with others
+
+**Acceptance Criteria:**
+- Events are displayed in a clear, organized calendar or list format
+- Each event includes essential details (date, time, location, description, registration info)
+- Events are categorized by type (workshops, support groups, awareness campaigns, etc.)
+- Past events showcase community engagement and success stories
+
+**Tasks:**
+- Create an events page with calendar or grid layout
+- Design event cards with all necessary information
+- Implement filtering options for event types and dates
+- Add registration links or contact information for each event
+- Include testimonials or highlights from previous events
 
 ## Website Overview
 
