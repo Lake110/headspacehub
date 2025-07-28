@@ -111,3 +111,51 @@
 - Optimize images and content for mobile loading speeds
 - Test navigation and user flows on various mobile devices
 - Ensure crisis hotline numbers are click-to-call on mobile
+
+## Website Overview
+
+Headspace Hub is a static HTML and CSS website dedicated to providing mental health support, resources, and community connections. The website serves as a safe space for individuals seeking mental wellness information, support, and guidance.
+
+### Website Structure
+
+#### Home Page
+The main landing page that welcomes visitors with a calming, supportive atmosphere. Features a hero section with mental wellness imagery, navigation to key resources, crisis support information, and an overview of available services. Includes quick access to self-care tips, featured resources, and community support options.
+
+**Key Elements:**
+- Hero section with welcoming message and calming visuals
+- Crisis support hotline prominently displayed
+- Quick access cards to main site sections
+- Featured mental health resources and tips
+- Testimonials or success stories section
+
+#### About Page
+Provides information about Headspace Hub's mission, values, and approach to mental health support. Explains the purpose of the website, the importance of mental health awareness, and the philosophy behind the resources provided.
+
+**Key Elements:**
+- Mission statement and core values
+- Information about mental health awareness
+- Explanation of website resources and approach
+- Team information or organizational background
+- Mental health statistics and importance
+
+#### Events Page
+Showcases mental health awareness events, workshops, support group meetings, and community activities. Provides a calendar view of upcoming events, detailed descriptions, and registration/attendance information.
+
+**Key Elements:**
+- Calendar of mental health events and workshops
+- Support group meeting schedules
+- Community activities and awareness campaigns
+- Event descriptions and registration details
+- Past event highlights and success stories
+
+#### Contact Us Page
+Offers multiple ways for visitors to get in touch, seek help, or ask questions. Includes contact forms, crisis resources, professional referral information, and community connection options.
+
+**Key Elements:**
+- Contact form for general inquiries
+- Crisis hotline and emergency resources
+- Professional referral information
+- Support group contact details
+- Physical location information (if applicable)
+- Social media links and community connections
+
