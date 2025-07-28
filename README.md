@@ -68,7 +68,7 @@ The overall design theme draws inspiration from peaceful, natural environments t
 - **Soft Sky Blue** (#87CEEB) - Promotes calm and tranquility
 
 **Secondary Color:**
-- **Mint Green** (#98FB98) - Represents growth and healing
+- **Green** (#048c6c) - Represents growth and healing
 
 **Third Color:**
 - **Gentle Lavender** (#E6E6FA) - Encourages relaxation and peace
