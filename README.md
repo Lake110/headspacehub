@@ -65,10 +65,10 @@ The overall design theme draws inspiration from peaceful, natural environments t
 ### Color Palette
 
 **Primary Color:**
-- **Soft Sky Blue** (#87CEEB) - Promotes calm and tranquility
+- **Tan Hide** (#008000) - Represents growth and healing
 
 **Secondary Color:**
-- **Green** (#048c6c) - Represents growth and healing
+- **Soft Sky Blue** (#87CEEB) - Promotes calm and tranquility
 
 **Third Color:**
 - **Gentle Lavender** (#E6E6FA) - Encourages relaxation and peace
