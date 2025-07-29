@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&family=Nunito:wght@200..1000&family=Quicksand:wght@300..700&display=swap");
 
 body {
   min-height: 100vh;
@@ -12,10 +12,10 @@ body {
 :root {
     --primary-font: "Nunito", sans-serif;
     --secondary-font: "Quicksand", sans-serif;
-    --primary-color: #e5d7c7; /* Green */
-    --secondary-color: #228b22; /* light blue */
-    --third-color: #bae9f2; /* light beige */
-    --highlight-color: #fed8b1; /* light peach */
+    --primary-color: #e5d7c7; /* Light Beige */
+    --secondary-color: #228b22; /* Light Green */
+    --third-color: #bae9f2; /* Light Blue */
+    --highlight-color: #fed8b1; /* Light Peach */
     --highlight-color-light: #8a9a5b; /* Olive Green */
     --text-color: #004953; /* Dark Green */
 }
@@ -40,16 +40,28 @@ body {
 
 /* Header, main, and footer styles */
 /*header styles*/
-header {
-  background-color: var(--secondary-color); /* Primary color for header */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/HeroImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--highlight-color); /* Light Peach */
+    padding: 8rem 0;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    font-family: var(--secondary-font);
 }
+
 /*main styles*/
 main {
-  background-color: var(--third-color); /* Light Beige */
+  background-color: var(--third-color); /* Light Blue */
   /* make element fill the remaining space */
   flex: 1 0 auto;
+  margin: 0;
+  padding: 1rem;
 }
+
 /*footer styles*/
 footer {
-  background-color: var(--primary-color); /* Primary color for footer */
+  background-color: var(--primary-color); /* Light Beige */
+  margin: 0;
+  padding: 1rem;
 }
