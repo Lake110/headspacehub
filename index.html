@@ -42,7 +42,10 @@
     />
 
     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <!--Css Link-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -52,7 +55,12 @@
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid" id="navbar">
-        <a class="navbar-logo" href="index.html"><img src="assets/images/Untitled design.png" alt="Headspace Hub Logo" width="200"></a>
+        <a class="navbar-logo" href="index.html"
+          ><img
+            src="assets/images/Untitled design.png"
+            alt="Headspace Hub Logo"
+            width="200"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -62,12 +70,14 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-<i class="fa-solid fa-cloud"></i>
+          <i class="fa-solid fa-cloud"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -76,28 +86,56 @@
               <a class="nav-link" href="#">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-        <!-- Hero Section -->
+    <!-- Hero Section -->
     <header class="hero text-center" id="mainContent">
-        <div class="container">
-            <h1 class="display-4">
-                <span class="hero-part-1">Welcome to</span>
-                <span class="hero-part-2">the Headspace Hub</span>
-            </h1>
-            <p class="lead">Practical Support for Brighter Days.</p>
-            <a href="#contact" class="btn btn-light btn-lg">Contact Us</a>
-        </div>
+      <div class="container">
+        <h1 class="display-4">
+          <span class="hero-part-1">Welcome to</span>
+          <span class="hero-part-2">the Headspace Hub</span>
+        </h1>
+        <p class="lead">Practical Support for Brighter Days.</p>
+        <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
+      </div>
     </header>
     <main>
       <p>Main content goes here.</p>
     </main>
-    <footer>
-      <h4>Footer Content</h4>
+    <footer id="contact" class="mt-auto">
+        <div class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="display-5">Get in Touch!</h2>
+                </div>
+      <!-- Headspace Hub Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h3 class="sub-heading-color">Contact info</h3>
+                    <address>
+                        <strong>Headspace Hub</strong><br>
+                        123 Boardwalk<br>
+                        Boardwalk City, 12345
+                    </address>
+                    <p><i class="fa-solid fa-phone"></i>+44 1695 123456<br>
+                        <i class="fa-solid fa-envelope"></i> info@headspace-hub.co
+                    </p>
+                    <!--Social Links-->
+                    <div class="social-links my-4">
+          <a href="https://x.com" target="_blank" aria-label="Visit our X.com page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-x"></i></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://discord.com" target="_blank" aria-label="Visit our Discord server (opens in a new tab)" rel="noopener"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <!--Emergency services footer-->
+        <div>
+          <p class="text-danger fw-bold mt-3">
+            For urgent support, please call <a href="tel:999" class="text-danger text-decoration-underline">999</a> or visit your nearest A&E.
+          </p>
+        </div>
     </footer>
 
     <!-- Bootstrap JS -->
