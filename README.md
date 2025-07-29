@@ -62,22 +62,8 @@ Headspace Hub follows a carefully crafted design philosophy that prioritizes cal
 
 The overall design theme draws inspiration from peaceful, natural environments that promote mental clarity and emotional well-being.
 
-### Color Palette
-
-**Primary Color:**
-- **Tan Hide** (#008000) - Represents growth and healing
-
-**Secondary Color:**
-- **Soft Sky Blue** (#87CEEB) - Promotes calm and tranquility
-
-**Third Color:**
-- **Gentle Lavender** (#E6E6FA) - Encourages relaxation and peace
-
-**Highlight Colors:**
-- **Pale Yellow** (#FFFFE0) - For warm highlights and call-to-action elements
-
-**Highlight Colors Light:**
-- **Soft Peach** (#FFDAB9) - For gentle emphasis and interactive elements
+**Text Color:**
+- **Dark Green** (#004953) - Primary text color for optimal readability
 
 ### Fonts
 
@@ -101,7 +87,7 @@ The overall design theme draws inspiration from peaceful, natural environments t
 - **Rounded Corners**: All cards, buttons, and containers feature soft, rounded corners (border-radius: 8-16px)
 - **Soft Box-Shadows**: Subtle shadows create depth without harshness (box-shadow: 0 2px 8px rgba(0,0,0,0.1))
 - **Minimalist Icons**: Simple, recognizable icons that don't overwhelm
-- **Breathing Room**: Generous white space between elements to prevent visual overwhelm
+- **Breathing Room**: Generous space between elements to prevent visual overwhelm
 
 ### Design Principles
 
