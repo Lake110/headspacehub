@@ -297,6 +297,10 @@ footer {
     #services .card-body {
         min-height: 300px;
     }
+
+    #resources .card-body {
+        min-height: 100px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
