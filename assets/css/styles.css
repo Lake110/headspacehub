@@ -110,14 +110,14 @@ main {
 }
 
 #contact-text {
-text-align: center;
+  text-align: center;
 }
 
 .report-box {
   background-color: var(--primary-color);
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .report-box h1 {
@@ -212,10 +212,10 @@ footer {
     margin-bottom: 1rem;
     padding: 2.5rem;
   }
-  
+
   .contact-page {
     padding: 2rem 3rem;
   }
-  
+
   /* Allow natural flexbox behavior - remove footer margin override */
 }
