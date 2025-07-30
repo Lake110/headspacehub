@@ -74,7 +74,7 @@ h6 {
 /*header styles*/
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/HeroImage.png");
+    url("../images/HeroImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--highlight-color); /* Light Peach */
