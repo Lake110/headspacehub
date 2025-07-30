@@ -107,31 +107,33 @@ The overall design theme draws inspiration from peaceful, natural environments t
 
 **Accessibility First:**
 
-- High contrast for readability
-- Touch-friendly button sizes
-- Clear visual hierarchy
-- Screen reader compatibility
+- High contrast ratios using Dark Green (#004953) text on Light Beige (#e5d7c7) backgrounds
+- Touch-friendly button sizes (minimum 44px)
+- Clear visual hierarchy with Nunito and Quicksand font families
+- Screen reader compatibility with proper semantic markup
 
 **Emotional Comfort:**
 
-- No sharp edges or aggressive colors
-- Consistent spacing and alignment
-- Predictable navigation patterns
-- Crisis resources always visible but not overwhelming
+- Soft rounded corners and gentle shadows instead of sharp edges
+- Calming Light Blue (#bae9f2) for main content areas
+- Consistent spacing and alignment using CSS custom properties
+- Crisis resources prominently displayed but not overwhelming
 
 **Visual Hierarchy:**
 
-- Clear distinction between headings and body text
-- Logical flow from most to least important information
-- Consistent spacing patterns throughout
-- Strategic use of color for emphasis without distraction
+- Primary headings use Dark Green (#004953) for strong contrast
+- Light Green (#228b22) for positive actions and growth-related content
+- Olive Green (#8a9a5b) for interactive elements and highlights
+- Strategic use of Light Peach (#fed8b1) for emphasis without distraction
 
 **Color Usage:**
 
-- Sky blue for primary navigation and headers
-- Mint Green for positive actions and success states
-- Lavender for secondary information and calm sections
-- Yellow/peach accents sparingly for important calls-to-action
+- Light Beige (#e5d7c7) for navigation, footer, and primary backgrounds
+- Light Green (#228b22) for positive actions, success states, and growth themes
+- Light Blue (#bae9f2) for main content areas and calm sections
+- Light Peach (#fed8b1) accents for hero sections and warm highlights
+- Olive Green (#8a9a5b) for interactive elements and gentle emphasis
+- Dark Green (#004953) for primary text ensuring optimal readability
 
 <a id="user-stories"></a>
 

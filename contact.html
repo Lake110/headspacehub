@@ -97,19 +97,59 @@
         </div>
       </div>
     </nav>
-    <header>
-        <!-- Hero Section -->
-        <div class="container hero-title">
-            <h1 class="display-4 hero-title">
-            <span class="hero-part-1">Welcome to</span>
-            <span class="hero-part-2">the Headspace Hub</span>
-            </h1>
-        </div>
-    </header>
    <!-- Main Content -->
-    <main>
-      <p>Main content goes here.</p>
-    </main>
+    <main class="contact-page">
+  <section class="report-box">
+    <h1 id="contact-text">Contact us!</h1>
+    <p class="sub-heading-color col-12 text-center">
+       <strong>Report a Safeguarding Concern</strong>
+    </p>
+    <div class="info-box">
+      <ul>
+        <li>If someone is in immediate danger, call <strong>999</strong> first.</li>
+        <li>You can report anonymously if you prefer.</li>
+        <li>All reports are taken seriously and handled confidentially.</li>
+        <li>You will not get in trouble for reporting genuine concerns.</li>
+      </ul>
+    </div>
+
+ <!-- Contact Form -->
+  <!--Optional Fields-->
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name <span>(optional)</span></label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email <span>(optional)</span></label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone <span>(optional)</span></label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+<!--Mandatory Fields-->
+      <div class="form-group">
+        <label for="urgency">Urgency Level</label>
+        <select id="urgency" name="urgency" required>
+          <option value="">Select urgency...</option>
+          <option value="low">Low</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="concern">Describe the Concern</label>
+        <textarea id="concern" name="concern" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+</main>
 
     <!-- Footer -->
     <footer id="contact" class="mt-auto">
