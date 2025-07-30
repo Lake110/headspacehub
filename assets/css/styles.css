@@ -100,6 +100,32 @@ main {
   min-height: auto; /* Let content determine height */
 }
 
+/* Main about styles */
+
+.about-section {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section-intro {
+   background-color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+
+.about-section-story {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
 /* Main contact styles */
 .contact-page {
   background-color: var(--third-color);
