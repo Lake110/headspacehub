@@ -229,6 +229,13 @@ main.about-page {
   min-block-size: 10px;
 }
 
+.form-section {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 /*footer styles*/
 footer {
   background-color: var(--primary-color); /* Light Beige */
@@ -313,6 +320,6 @@ footer {
 @media screen and (min-width: 1400px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
-        min-height:300px;
+        min-height:350px;
     }
 }
