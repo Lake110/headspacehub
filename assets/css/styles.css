@@ -206,6 +206,29 @@ main.about-page {
   cursor: pointer;
 }
 
+/* Events Page Styles */
+.event-card {
+  background-color: var(--highlight-color-light);
+  color: var(--text-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.event-title {
+  color: var(--third-color);
+}
+
+.event-button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  min-block-size: 10px;
+}
+
 /*footer styles*/
 footer {
   background-color: var(--primary-color); /* Light Beige */
@@ -251,7 +274,9 @@ footer {
   transition: color 0.3s ease-in-out;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   .report-box {
     margin-bottom: 1rem;
@@ -261,6 +286,33 @@ footer {
   .contact-page {
     padding: 2rem 3rem;
   }
+    /* Make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 300px;
+    }
+}
 
-  /* Allow natural flexbox behavior - remove footer margin override */
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+  
+    /* Make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 300px;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height:400px;
+    }
+}
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height:300px;
+    }
 }

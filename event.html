@@ -34,9 +34,12 @@
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&family=Nunito:wght@200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&family=Nunito:wght@200..1000&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap 5 CSS -->
     <link
@@ -80,15 +83,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link " href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="event.html">Events</a>
+              <a class="nav-link active" aria-current="page" href="event.html"
+                >Events</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -97,18 +100,195 @@
         </div>
       </div>
     </nav>
-    <header>
-        <!-- Hero Section -->
-        <div class="container hero-title">
-            <h1 class="display-4 hero-title">
-            <span class="hero-part-1">Welcome to</span>
-            <span class="hero-part-2">the Headspace Hub</span>
-            </h1>
-        </div>
+
+    <!--header-->
+    <header class="hero text-center" id="mainContent">
+      <div class="container hero-title">
+        <h1 class="display-4 hero-title">
+          <span class="hero-part-1">Connect, Learn & Grow</span>
+        </h1>
+        <p class="lead">
+          Explore upcoming events designed to support your mental wellness
+          journey. Workshops, support groups, awareness campaigns, and more—open
+          to all.
+        </p>
+      </div>
     </header>
-   <!-- Main Content -->
+
+    <!-- Main Content -->
     <main>
-      <p>Main content goes here.</p>
+      <h2 class="display-6">Why Join Our Events?</h2>
+      <p>
+        Our events are designed to be inclusive, supportive, and uplifting.
+        Whether you want to learn new skills, connect with others, or simply
+        take a break from daily stress, we have something for everyone.
+      </p>
+
+      <!-- Events section -->
+      <section id="services" class="container section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Our Community Events</h2>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card event-card">
+              <div class="card-body">
+                <h3 class="event-title">Mindfulness Workshop</h3>
+                <p>
+                  <strong>Date:</strong> August 15, 2025<br />
+                  <strong>Time:</strong> 6:00 PM BST<br />
+                  <strong>Location:</strong> Online
+                </p>
+                <p>
+                  Learn practical breathing and grounding exercises to reduce
+                  anxiety and improve focus. Suitable for all experience levels.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary mt-2 event-button"
+                  >Register Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card event-card">
+              <div class="card-body">
+                <h3 class="event-title">Peer Support Meetup</h3>
+                <p>
+                  <strong>Date:</strong> August 22, 2025<br />
+                  <strong>Time:</strong> 7:30 PM BST<br />
+                  <strong>Location:</strong> Ormskirk Community Centre
+                </p>
+                <p>
+                  Join others in a safe, welcoming environment to share
+                  experiences and find support. No pressure to speak—just come
+                  as you are.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-secondary mt-2 event-button"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card event-card">
+              <div class="card-body">
+                <h3 class="event-title">Mental Health Awareness Weekend</h3>
+                <p>
+                  <strong>Date:</strong> September 1 - 4, 2025<br />
+                  <strong>Location:</strong> Hybrid (Online & Community Hall)
+                </p>
+                <p>
+                  Enjoy live talks, mindfulness sessions, art therapy, and more.
+                  This is a celebration of resilience and connection.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-success mt-2 event-button"
+                  >Full Schedule</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card event-card">
+              <div class="card-body">
+                <h3 class="event-title">Coffee & Connection</h3>
+                <p>
+                  <strong>Date:</strong> September 17, 2025<br />
+                  <strong>Time:</strong> 10:00 AM – 12:30 PM BST<br />
+                  <strong>Location:</strong> Ormskirk Community Café
+                </p>
+                <p>
+                  Drop in for a friendly chat, warm drinks, and gentle vibes. No
+                  agenda, no expectations—just a space to relax, connect, and
+                  unwind. All ages welcome.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-warning mt-2 event-button"
+                  >Pop In Anytime</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Past Highlights -->
+      <section class="col-12 text-center section my-4">
+        <h2 class="display-6">Past Highlights</h2>
+        <p>
+          “Joining the mindfulness workshop helped me feel calm again. Just
+          knowing others are out there helped a lot.” <br> – Community Member
+        </p>
+      </section>
+       <!-- Highlighted Quote -->
+      <section class="col-12 text-center section my-4">
+          <p class="mb-0">
+            “Connecting with others who understand makes all the difference.”<br> – Community Member
+          </p>
+        </section>
+     
+
+      <section class="container section">
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <h2 class="display-6">Join Our Community</h2>
+            <p>
+              We believe in the power of connection. Whether you want to attend
+              an event, volunteer, or just learn more, we’re here for you.
+            </p>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-12 col-md-8 offset-md-2">
+            <form action="" method="post" class="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -127,7 +307,8 @@
                 <h4 class="sub-heading-color">Contact Info</h4>
                 <p class="mb-0">
                   <i class="fa-solid fa-phone me-2"></i>+44 1695 123456<br />
-                  <i class="fa-solid fa-envelope me-2"></i>info@headspace-hub.com
+                  <i class="fa-solid fa-envelope me-2"></i
+                  >info@headspace-hub.com
                 </p>
               </div>
 
@@ -233,4 +414,3 @@
     ></script>
   </body>
 </html>
-
