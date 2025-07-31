@@ -338,6 +338,28 @@ footer {
   transition: color 0.3s ease-in-out;
 }
 
+/* Success page styles */
+#success {
+  background-image: url("../images/Calm-lake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  color: var(--text-color);
+  font-family: var(--primary-font), sans-serif;
+  min-height: 100vh;
+}
+.success-message {
+  background-color: var(--highlight-color-light);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  margin-top: 30vh;
+  max-width: 600px;
+}
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -357,6 +379,10 @@ footer {
 
     #resources .card-body {
         min-height: 100px;
+    }
+    .success-message {
+      margin-left: auto;
+      margin-right: auto;
     }
 }
 
