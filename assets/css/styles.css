@@ -201,8 +201,8 @@ main.about-page {
   margin-bottom: 0px;
 }
 
-
-.accordion {
+/* accordion styles */
+#tips-accordion {
   background-color: var(--highlight-color-light);
   padding: 1rem;
   border-radius: 8px;
