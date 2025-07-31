@@ -26,13 +26,13 @@
 
 Welcome to Headspace Hub, a compassionate website designed to provide mental health support, resources, and community connections. The aim of this project is to create a safe, accessible space where individuals can find mental wellness information, support resources, and connect with others on similar journeys. The website emphasizes a calming, non-judgmental atmosphere that encourages users to explore mental health resources with confidence.
 
-This website serves as a comprehensive platform offering crisis support information, self-care tips, professional guidance, community connections, and mental health awareness events. The design prioritizes accessibility, user comfort, and immediate access to crucial support resources.
+This website serves as a comprehensive platform offering crisis support, self-care tips, community connections, and mental health awareness events. The design prioritizes accessibility, user comfort, and immediate access to crucial support resources.
 
 <a id="instructions"></a>
 
 ## Instructions and Features
 
-Headspace Hub is designed to be intuitive, calming, and supportive for users who may be experiencing mental health challenges. The website features a responsive navigation system, crisis support information prominently displayed, and organized content that avoids overwhelming users.
+Headspace Hub is designed to be intuitive, calming, and supportive for users who may be experiencing mental health challenges. The website features a responsive navigation system, support information prominently displayed, and organized content that avoids overwhelming users.
 
 ### General Style
 
@@ -90,7 +90,7 @@ Dedicated page providing links to reputable mental health organizations, crisis 
 
 #### Contact Us Page (contact.html)
 
-Offers multiple ways to connect including safeguarding concern reporting form, general inquiry options, prominent crisis hotline information, professional referral resources, and community connection opportunities. Features a comprehensive footer with emergency contacts.
+Offers multiple ways to connect including safeguarding concern reporting form, general inquiry options, prominent crisis hotline information, professional referral resources, and community connection opportunities. Features a comprehensive footer with emergency contacts. once the form is submitted a completion page appears.
 
 <a id="design-style-guide"></a>
 
@@ -105,19 +105,23 @@ The overall design theme draws inspiration from peaceful, natural environments t
 ### Color Palette
 
 **Primary Color:**
-- **Light Beige** (#e5d7c7) - Creates a warm, welcoming foundation
+- **Light Beige** (#ece1d5) - Creates a warm, welcoming foundation
 
 **Secondary Color:**
-- **Light Green** (#228b22) - Represents growth and healing
+- **Light Peach** (#fed8b1) - For warm highlights and call-to-action elements
 
 **Third Color:**
 - **Light Blue** (#bae9f2) - Promotes calm and tranquility
 
 **Highlight Color:**
-- **Light Peach** (#fed8b1) - For warm highlights and call-to-action elements
+- **Olive Green Dark** (#8b9d5c) - For gentle emphasis and interactive elements
 
 **Highlight Color Light:**
-- **Olive Green** (#8a9a5b) - For gentle emphasis and interactive elements
+- **Olive Green** (#a1b078) - For lighter interactive elements and cards
+
+**Text Colors:**
+- **Dark Green** (#002429) - Primary text color for optimal readability
+- **Dark Olive Green** (#424a2b) - Secondary text color for variety and emphasis
 
 ### Fonts
 
@@ -151,7 +155,7 @@ The overall design theme draws inspiration from peaceful, natural environments t
 
 **Accessibility First:**
 
-- High contrast ratios using Dark Green (#004953) text on Light Beige (#e5d7c7) backgrounds
+- High contrast ratios using Dark Green (#002429) text on Light Beige (#ece1d5) backgrounds
 - Touch-friendly button sizes (minimum 44px)
 - Clear visual hierarchy with Nunito and Quicksand font families
 - Screen reader compatibility with proper semantic markup
@@ -165,19 +169,20 @@ The overall design theme draws inspiration from peaceful, natural environments t
 
 **Visual Hierarchy:**
 
-- Primary headings use Dark Green (#004953) for strong contrast
-- Light Green (#228b22) for positive actions and growth-related content
-- Olive Green (#8a9a5b) for interactive elements and highlights
+- Primary headings use Dark Green (#002429) for strong contrast
+- Light Peach (#fed8b1) for positive actions and warm highlights
+- Olive Green Dark (#8b9d5c) for interactive elements and highlights
 - Strategic use of Light Peach (#fed8b1) for emphasis without distraction
 
 **Color Usage:**
 
-- Light Beige (#e5d7c7) for navigation, footer, and primary backgrounds
-- Light Green (#228b22) for positive actions, success states, and growth themes
+- Light Beige (#ece1d5) for navigation, footer, and primary backgrounds
+- Light Peach (#fed8b1) for positive actions, success states, and warm highlights
 - Light Blue (#bae9f2) for main content areas and calm sections
-- Light Peach (#fed8b1) accents for hero sections and warm highlights
-- Olive Green (#8a9a5b) for interactive elements and gentle emphasis
-- Dark Green (#004953) for primary text ensuring optimal readability
+- Olive Green (#a1b078) for cards and lighter interactive elements
+- Olive Green Dark (#8b9d5c) for buttons and stronger interactive elements
+- Dark Green (#002429) for primary text ensuring optimal readability
+- Dark Olive Green (#424a2b) for secondary text and variety
 
 <a id="user-stories"></a>
 
@@ -363,7 +368,7 @@ Key development considerations included:
 
 - **Accessibility**: Ensuring all content is readable and navigable for users with various abilities
 - **Crisis Resources**: Making emergency support information immediately accessible from any page
-- **Color Psychology**: Using calming colors and imagery to promote a sense of peace and safety
+- **Colour Psychology**: Using calming colours and imagery to promote a sense of peace and safety
 - **Content Organization**: Structuring information to avoid overwhelming users while providing comprehensive resources
 - **Mobile Responsiveness**: Ensuring full functionality on mobile devices for users seeking help on-the-go
 
@@ -460,17 +465,9 @@ The website design process began with comprehensive wireframes created for mobil
 
 ### Design Mockups
 
-**Mobile Wireframe:**
-![Mobile Wireframe](assets/images/wireframe-mobile.png)
+**Wireframe:**
+![Wireframe](assets/images/Wireframes.png)
 *Mobile wireframe showing responsive navigation, hero section, and vertically stacked content cards*
-
-**Tablet Wireframe:**
-![Tablet Wireframe](assets/images/wireframe-tablet.png)
-*Tablet wireframe demonstrating medium-screen layout with improved spacing and two-column layouts*
-
-**Desktop Wireframe:**
-![Desktop Wireframe](assets/images/wireframe-desktop.png)
-*Desktop wireframe featuring full navigation, multi-column layouts, and enhanced visual elements*
 
 ### Design Evolution
 
