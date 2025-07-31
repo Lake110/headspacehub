@@ -1,176 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Headspace Hub – Your safe space for mental wellness. Find supportive resources, practical tips, and uplifting information to help you take care of your mind."
+    />
+    <meta
+      name="keywords"
+      content="mental health, wellness, support, resources, community"
+    />
+    <title>Headspace Hub | Home</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Headspace Hub – Your safe space for mental wellness. Find supportive resources, practical tips, and uplifting information to help you take care of your mind." />
-  <meta name="keywords" content="mental health, wellness, support, resources, community" />
-  <title>Headspace Hub | Home</title>
+    <!--Favicons-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
-  <!--Favicons-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&family=Nunito:wght@200..1000&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&family=Nunito:wght@200..1000&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet" />
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!--Css Link-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-  <!--Css Link-->
-  <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-
-<body class="d-flex flex-column min-vh-100">
-  <!--Navigation-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid" id="navbar">
-      <a class="navbar-logo" href="index.html"><img src="assets/images/Untitled design.png" alt="Headspace Hub Logo"
-          width="200" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-cloud"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="event.html">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Resources.html">External Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Hero Section -->
-  <header class="hero text-center" id="mainContent">
-    <div class="container hero-title">
-      <h1 class="display-4 hero-title">
-        <span class="hero-part-1">Welcome to</span>
-        <span class="hero-part-2">the Headspace Hub</span>
-      </h1>
-      <p class="lead">Practical Support for Brighter Days.</p>
-      <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-
-    <!--tip of the day-->
-    <section class="container py-5" id="daily-tip">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center">
-          <h2 class="display-6 mb-3">Wellness Tip of the Day</h2>
-          <p class="lead">
-            “Take one mindful breath before you open your phone—it sets the
-            tone for your day.” <br />- Headspace Hub Team
-          </p>
+  <body class="d-flex flex-column min-vh-100">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" id="navbar">
+        <a class="navbar-logo" href="index.html"
+          ><img
+            src="assets/images/Untitled design.png"
+            alt="Headspace Hub Logo"
+            width="200"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-cloud"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Resources.html">External Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero text-center" id="mainContent">
+      <div class="container hero-title">
+        <h1 class="display-4 hero-title">
+          <span class="hero-part-1">Welcome to</span>
+          <span class="hero-part-2">the Headspace Hub</span>
+        </h1>
+        <p class="lead">Practical Support for Brighter Days.</p>
+        <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
+      </div>
+    </header>
 
-  
-
-  </main>
-
-  <!-- Footer -->
-  <footer id="contact" class="mt-auto">
-    <div class="container section">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center mb-0">
-          <h2 class="display-7">Get in Touch!</h2>
+    <!-- Main Content -->
+    <main>
+      <!--tip of the day-->
+      <section class="container py-5" id="daily-tip">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="display-6 mb-3">Wellness Tip of the Day</h2>
+            <p class="lead">
+              “Take one mindful breath before you open your phone—it sets the
+              tone for your day.” <br />- Headspace Hub Team
+            </p>
+          </div>
         </div>
-
-        <!-- Compact Contact Information -->
-        <div class="col-12">
-          <div class="row text-center text-md-start">
-            <!-- Contact Info -->
-            <div class="col-md-4 my-3 text-md-center">
-              <h4 class="sub-heading-color">Contact Info</h4>
-              <p class="mb-0">
-                <i class="fa-solid fa-phone me-2"></i>+44 1695 123456<br />
-                <i class="fa-solid fa-envelope me-2"></i>info@headspace-hub.com
-              </p>
-            </div>
-
-            <!-- External Links -->
-            <div class="col-md-4 text-center my-3">
-              <h4 class="sub-heading-color">External Links</h4>
-              <div class="my-0">
-                <p class="mb-0">
-                  We are here to help you find the support you need. <br />
-                  Here are some useful links if you need help:
+      </section>
+   <!--quote carousel-->
+      <div class="row carousel">
+        <h2 class="text-center mb-4">Reflections & Encouragement</h2>
+        <div class="col-12 col-xl-6">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="lead text-center">
+                  “Healing doesn’t mean the damage never existed. It means it no
+                  longer controls you.” <br />
+                  - Anonymous
                 </p>
-                <a href="https://www.mentalhealth.gov/get-help" class="externallinks" target="_blank">Mental Health
-                  Resources</a>
-                <br />
-                <a href="https://www.samaritans.org" class="externallinks" target="_blank">Samaritans</a>
-                <br />
-                <a href="https://www.nhs.uk/nhs-services/mental-health-services/" class="externallinks"
-                  target="_blank">NHS Mental Health Services</a>
+              </div>
+              <div class="carousel-item">
+                <p class="lead text-center">
+                  “You don’t have to have it all figured out to move forward.”
+                  <br />- Headspace Hub Community
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="lead text-center">
+                  “Sometimes rest is the most productive thing you can do.”
+                  <br />- Mental Health Advocate
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="lead text-center">
+                  “Rest is not idleness, and to lie sometimes on the grass
+                  under trees on a summer day, listening to the murmur of
+                  water, or watching the clouds float across the sky, is by no
+                  means a waste of time.”
+                  <br />- John Lubbock
+                </p>
               </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
 
-            <!-- Social Links -->
-            <div class="col-12 col-md-4 my-3 text-center">
-              <h4 class="sub-heading-color">Follow Us</h4>
-              <div class="social-links">
-                <a href="https://x.com" target="_blank" aria-label="Visit our X.com page (opens in a new tab)"
-                  rel="noopener" class="me-3"><i class="fa-brands fa-x fa-2x"></i></a>
-                <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
-                  rel="noopener" class="me-3"><i class="fa-brands fa-facebook fa-2x"></i></a>
-                <a href="https://instagram.com" target="_blank"
-                  aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener" class="me-3"><i
-                    class="fa-brands fa-instagram fa-2x"></i></a>
-                <a href="https://discord.com" target="_blank" aria-label="Visit our Discord server (opens in a new tab)"
-                  rel="noopener"><i class="fa-brands fa-discord fa-2x"></i></a>
+          
+
+      <!--Our Prevention Mission-->
+      <section
+        class="container-fluid align-items-center py-5"
+        id="prevention-mission"
+      >
+        <div
+          class="container d-md-flex align-items-center justify-content-between"
+        >
+          <div class="col-md-6">
+            <h2>Our Prevention Mission</h2>
+            <p>
+              Prevention is about understanding the root causes of mental health
+              challenges. At Headspace Hub, we work through research, outreach,
+              and advocacy to spark change.
+            </p>
+            <a href="about.html" class="btn about">What We Do</a>
+          </div>
+
+          <!-- Motivational Image -->
+          <div class="col-md-6 image">
+            <img
+              src="assets/images/board.avif"
+              alt="Motivational Board with message of 'difficult roads lead to beautiful destinations"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5" id="get-involved">
+        <h2 class="text-center mb-4">How You Can Help</h2>
+        <div class="row g-4 text-center">
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="assets/images/fundraise.jpg"
+                class="card-img-top"
+                alt="People running"
+              />
+              <div class="card-body">
+                <h5>Fundraise</h5>
+                <p>
+                  Join an active challenge, get fit, and help fund mental health
+                  awareness.
+                </p>
+                <a href="event.html" class="btn about">Get Involved</a>
               </div>
             </div>
           </div>
+          <!-- Repeat for Donate / Participate / Shop -->
         </div>
+      </section>
 
-        <!-- Emergency Services Footer - Full Width at Bottom -->
-        <div class="col-12 text-center pt-3 my-0">
-          <p class="text-danger fw-bold mb-0" id="emergencyFooter">
-            For urgent support, please call
-            <a href="tel:999" target="_blank" class="text-danger text-decoration-underline">999</a>
-            or visit your nearest A&E.
-          </p>
+      <section class="container py-5" id="topics">
+        <h2 class="text-center mb-4">Popular Topics</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100">
+              <img
+                src="assets/images/poverty-report.jpg"
+                class="card-img-top"
+                alt="Person with baby"
+              />
+              <div class="card-body">
+                <h5>Poverty of Ambition</h5>
+                <p>
+                  Why bold action is needed to tackle poverty and improve mental
+                  health outcomes.
+                </p>
+                <a href="Resources.html" class="btn about">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more for burnout, community benefits, etc. -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="mt-auto">
+      <div class="container section">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center mb-0">
+            <h2 class="display-7">Get in Touch!</h2>
+          </div>
+
+          <!-- Compact Contact Information -->
+          <div class="col-12">
+            <div class="row text-center text-md-start">
+              <!-- Contact Info -->
+              <div class="col-md-4 my-3 text-md-center">
+                <h4 class="sub-heading-color">Contact Info</h4>
+                <p class="mb-0">
+                  <i class="fa-solid fa-phone me-2"></i>+44 1695 123456<br />
+                  <i class="fa-solid fa-envelope me-2"></i
+                  >info@headspace-hub.com
+                </p>
+              </div>
+
+              <!-- External Links -->
+              <div class="col-md-4 text-center my-3">
+                <h4 class="sub-heading-color">External Links</h4>
+                <div class="my-0">
+                  <p class="mb-0">
+                    We are here to help you find the support you need. <br />
+                    Here are some useful links if you need help:
+                  </p>
+                  <a
+                    href="https://www.mentalhealth.gov/get-help"
+                    class="externallinks"
+                    target="_blank"
+                    >Mental Health Resources</a
+                  >
+                  <br />
+                  <a
+                    href="https://www.samaritans.org"
+                    class="externallinks"
+                    target="_blank"
+                    >Samaritans</a
+                  >
+                  <br />
+                  <a
+                    href="https://www.nhs.uk/nhs-services/mental-health-services/"
+                    class="externallinks"
+                    target="_blank"
+                    >NHS Mental Health Services</a
+                  >
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="col-12 col-md-4 my-3 text-center">
+                <h4 class="sub-heading-color">Follow Us</h4>
+                <div class="social-links">
+                  <a
+                    href="https://x.com"
+                    target="_blank"
+                    aria-label="Visit our X.com page (opens in a new tab)"
+                    rel="noopener"
+                    class="me-3"
+                    ><i class="fa-brands fa-x fa-2x"></i
+                  ></a>
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    aria-label="Visit our Facebook page (opens in a new tab)"
+                    rel="noopener"
+                    class="me-3"
+                    ><i class="fa-brands fa-facebook fa-2x"></i
+                  ></a>
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    aria-label="Visit our Instagram page (opens in a new tab)"
+                    rel="noopener"
+                    class="me-3"
+                    ><i class="fa-brands fa-instagram fa-2x"></i
+                  ></a>
+                  <a
+                    href="https://discord.com"
+                    target="_blank"
+                    aria-label="Visit our Discord server (opens in a new tab)"
+                    rel="noopener"
+                    ><i class="fa-brands fa-discord fa-2x"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency Services Footer - Full Width at Bottom -->
+          <div class="col-12 text-center pt-3 my-0">
+            <p class="text-danger fw-bold mb-0" id="emergencyFooter">
+              For urgent support, please call
+              <a
+                href="tel:999"
+                target="_blank"
+                class="text-danger text-decoration-underline"
+                >999</a
+              >
+              or visit your nearest A&E.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-    crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Font Awesome kit -->
-  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
-</body>
-
+    <!-- Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/aa9af45995.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -372,3 +372,8 @@ The website undergoes comprehensive testing to ensure it meets the needs of user
 ## Project Deployment
 
 The deployed website can be found [here](#) (URL to be added upon deployment)
+
+<a id="failed additions"></a>
+
+below is some of the additions i tried to implement but i couldnt get it to work in time.
+

@@ -146,6 +146,63 @@ main.about-page {
 }
 
 /* Main contact styles */
+
+/* Home page styles */
+.image {
+  border-radius: 20px;
+}
+
+.carousel{
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: var(--highlight-color-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  background-color: var(--highlight-color);
+  min-height: 200px;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--text-color);
+}
+
+.carousel-controls, .carousel-control-prev-icon,
+.carousel-controls, .carousel-control-next-icon {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+}
+
+.btn.about {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.btn.about:hover {
+  background-color: var(--highlight-color);
+  color: var(--text-color);
+}
+
+#prevention-mission {
+  background-color: var(--highlight-color-light);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact page styles */
 .contact-page {
   background-color: var(--third-color);
   padding: 2rem;
