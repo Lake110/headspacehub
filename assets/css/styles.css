@@ -99,54 +99,6 @@ main {
   padding: 1rem;
   min-height: auto; /* Let content determine height */
 }
-
-/* Main about styles */
-
-main.about-page {
-  background-image:
-    url("../images/Mountain.avif");
-  padding: 2rem;
-  color: var(--text-color);
-  font-family: var(--primary-font), sans-serif;
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.about-section {
-  background-color: var(--highlight-color-light);
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.about-section-intro {
-   background-color: var(--highlight-color-light);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 2rem;
-}
-
-.about-section-values {
-  background-color: var(--highlight-color-light);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 2rem;
-}
-
-.about-section-story {
-  background-color: var(--highlight-color-light);
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
-}
-
-/* Main contact styles */
-
 /* Home page styles */
 .image {
   border-radius: 20px;
@@ -226,6 +178,55 @@ main.about-page {
   padding: 1rem;
   border:none;
 }
+
+
+/* Main about styles */
+
+main.about-page {
+  background-color: var(--third-color);
+  padding: 2rem;
+  color: var(--text-color);
+  font-family: var(--primary-font), sans-serif;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-section {
+  background-color: var(--highlight-color-light);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
+}
+
+.about-section-intro {
+   background-color: var(--highlight-color-light);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.about-section-values {
+  background-color: var(--highlight-color-light);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.about-section-story {
+  background-color: var(--highlight-color-light);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Main contact styles */
+
 
 /* Contact page styles */
 .contact-page {
@@ -316,6 +317,16 @@ main.about-page {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* resources page styles */
+
+.resource-card {
+  color: var(--text-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 /*footer styles*/
@@ -415,6 +426,12 @@ footer {
         text-align: center;
         min-height: 175px;
     }
+
+    .card-body-resource {
+        padding: 1.5rem;
+        text-align: center;
+        min-height: 300px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -449,4 +466,5 @@ footer {
     #services .card-body {
         min-height:350px;
     }
+
 }
