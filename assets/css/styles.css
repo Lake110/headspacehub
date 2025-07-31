@@ -12,12 +12,13 @@ body {
 :root {
   --primary-font: "Nunito", sans-serif;
   --secondary-font: "Quicksand", sans-serif;
-  --primary-color: #e5d7c7; /* Light Beige */
-  --secondary-color: #228b22; /* Light Green */
+  --primary-color: #ECE1D5; /* Light Beige */
+  --secondary-color:  #fed8b1; /* Light Peach */
   --third-color: #bae9f2; /* Light Blue */
-  --highlight-color: #fed8b1; /* Light Peach */
+  --highlight-color: #8B9D5C; /* Olive Green Dark */
   --highlight-color-light: #A1B078; /* Olive Green */
   --text-color: #002429; /* Dark Green */
+  --text-color-2: #424A2B; /* Dark Olive Green */
 }
 
 h1,
@@ -115,7 +116,7 @@ main {
 .carousel-inner {
   display: flex;
   align-items: center;
-  background-color: var(--highlight-color);
+  background-color: var(--secondary-color);
   min-height: 200px;
   padding: 1rem;
   border-radius: 8px;
@@ -124,7 +125,7 @@ main {
 
 .carousel-controls, .carousel-control-prev-icon,
 .carousel-controls, .carousel-control-next-icon {
-  background-color: var(--secondary-color);
+  background-color: var(--highlight-color);
   border-radius: 50%;
   width: 25px;
   height: 25px;
@@ -132,7 +133,7 @@ main {
 }
 
 .btn.about {
-  background-color: var(--secondary-color);
+  background-color: var(--highlight-color);
   color: var(--text-color);
   padding: 0.75rem 1.5rem;
   border: none;
@@ -369,17 +370,17 @@ footer {
 }
 
 #contact .sub-heading-color {
-  color: var(--highlight-color-light); /* Olive Green */
+  color: #005200; /* Olive Green */
 }
 
 #contact i {
-  color: var(--highlight-color-light); /* Olive Green */
+  color: var(--text-color-2); /* Dark Olive Green */
   font-size: 1rem;
   margin-right: 15px;
 }
 
 #contact .social-links i {
-  color: var(--highlight-color-light); /* Olive Green */
+  color: var(--text-color-2); /* Dark Olive Green */
   font-size: 1.4rem;
   transition: color 0.3s ease-in-out;
 }
@@ -389,7 +390,7 @@ footer {
 }
 
 .externallinks {
-  color: var(--highlight-color-light); /* Olive Green */
+  color: var(--text-color-2); /* Olive Green */
   font-size: 1rem;
   transition: color 0.3s ease-in-out;
 }
