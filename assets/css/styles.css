@@ -201,6 +201,31 @@ main.about-page {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+.card-home {
+  background-color: var(--highlight-color-light);
+  color: var(--text-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  margin-bottom: 1rem;
+}
+.card-body-home, .card-footer-home {
+  background-color: var(--highlight-color-light);
+  color: var(--text-color);
+}
+
+#topics {
+  background-color: var(--highlight-color-light);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-body-topics {
+  background-color: var(--highlight-color-light);
+  color: var(--text-color);
+  padding: 1rem;
+  border:none;
+}
 
 /* Contact page styles */
 .contact-page {
@@ -384,6 +409,12 @@ footer {
       margin-left: auto;
       margin-right: auto;
     }
+
+    .card-body-home {
+        padding: 1.5rem;
+        text-align: center;
+        min-height: 175px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -395,6 +426,15 @@ footer {
     }
 }
 
+/* Large devices (laptops, 1024px and up) */
+@media screen and (min-width: 1024px) {
+.card-body-home {
+  margin-top: 50px;
+        padding: 1.5rem;
+        text-align: center;
+        min-height: 250px;
+    }
+  }
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     /* make all service cards the same height for consistency */
