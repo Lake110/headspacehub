@@ -395,6 +395,10 @@ footer {
   transition: color 0.3s ease-in-out;
 }
 
+.urgent {
+  color: red; /* Emergency red */
+}
+
 /* Success page styles */
 #success {
   background-image: url("../images/Calm-lake.jpg");
