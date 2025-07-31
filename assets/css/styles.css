@@ -12,13 +12,13 @@ body {
 :root {
   --primary-font: "Nunito", sans-serif;
   --secondary-font: "Quicksand", sans-serif;
-  --primary-color: #ECE1D5; /* Light Beige */
-  --secondary-color:  #fed8b1; /* Light Peach */
+  --primary-color: #ece1d5; /* Light Beige */
+  --secondary-color: #fed8b1; /* Light Peach */
   --third-color: #bae9f2; /* Light Blue */
-  --highlight-color: #8B9D5C; /* Olive Green Dark */
-  --highlight-color-light: #A1B078; /* Olive Green */
+  --highlight-color: #8b9d5c; /* Olive Green Dark */
+  --highlight-color-light: #a1b078; /* Olive Green */
   --text-color: #002429; /* Dark Green */
-  --text-color-2: #424A2B; /* Dark Olive Green */
+  --text-color-2: #424a2b; /* Dark Olive Green */
 }
 
 h1,
@@ -105,7 +105,7 @@ main {
   border-radius: 20px;
 }
 
-.carousel{
+.carousel {
   margin: 2rem 0;
   padding: 1rem;
   background-color: var(--highlight-color-light);
@@ -123,13 +123,14 @@ main {
   color: var(--text-color);
 }
 
-.carousel-controls, .carousel-control-prev-icon,
-.carousel-controls, .carousel-control-next-icon {
+.carousel-controls,
+.carousel-control-prev-icon,
+.carousel-controls,
+.carousel-control-next-icon {
   background-color: var(--highlight-color);
   border-radius: 50%;
   width: 25px;
   height: 25px;
-
 }
 
 .btn.about {
@@ -158,10 +159,11 @@ main {
   background-color: var(--highlight-color-light);
   color: var(--text-color);
   border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 1rem;
 }
-.card-body-home, .card-footer-home {
+.card-body-home,
+.card-footer-home {
   background-color: var(--highlight-color-light);
   color: var(--text-color);
 }
@@ -170,16 +172,15 @@ main {
   background-color: var(--highlight-color-light);
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card-body-topics {
   background-color: var(--highlight-color-light);
   color: var(--text-color);
   padding: 1rem;
-  border:none;
+  border: none;
 }
-
 
 /* Main about styles */
 
@@ -223,7 +224,7 @@ main.about-page {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 .about-section-intro {
-   background-color: var(--highlight-color-light);
+  background-color: var(--highlight-color-light);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -247,7 +248,6 @@ main.about-page {
 }
 
 /* Main contact styles */
-
 
 /* Contact page styles */
 .contact-page {
@@ -315,7 +315,7 @@ main.about-page {
   background-color: var(--highlight-color-light);
   color: var(--text-color);
   border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .event-title {
@@ -337,7 +337,7 @@ main.about-page {
   background-color: var(--primary-color);
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* resources page styles */
@@ -345,7 +345,7 @@ main.about-page {
 .resource-card {
   color: var(--text-color);
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -414,7 +414,7 @@ footer {
   background-color: var(--highlight-color-light);
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   color: var(--text-color);
   font-family: var(--primary-font);
   margin-top: 30vh;
@@ -433,63 +433,61 @@ footer {
   .contact-page {
     padding: 2rem 3rem;
   }
-    /* Make all service cards the same height for consistency */
-    #services .card-body {
-        min-height: 300px;
-    }
+  /* Make all service cards the same height for consistency */
+  #services .card-body {
+    min-height: 300px;
+  }
 
-    #resources .card-body {
-        min-height: 100px;
-    }
-    .success-message {
-      margin-left: auto;
-      margin-right: auto;
-    }
+  #resources .card-body {
+    min-height: 100px;
+  }
+  .success-message {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .card-body-home {
-        padding: 1.5rem;
-        text-align: center;
-        min-height: 175px;
-    }
+  .card-body-home {
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 175px;
+  }
 
-    .card-body-resource {
-        padding: 1.5rem;
-        text-align: center;
-        min-height: 300px;
-    }
+  .card-body-resource {
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 300px;
+  }
 }
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-  
-    /* Make all service cards the same height for consistency */
-    #services .card-body {
-        min-height: 300px;
-    }
+  /* Make all service cards the same height for consistency */
+  #services .card-body {
+    min-height: 300px;
+  }
 }
 
 /* Large devices (laptops, 1024px and up) */
 @media screen and (min-width: 1024px) {
-.card-body-home {
-  margin-top: 50px;
-        padding: 1.5rem;
-        text-align: center;
-        min-height: 250px;
-    }
+  .card-body-home {
+    margin-top: 50px;
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 250px;
   }
+}
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    /* make all service cards the same height for consistency */
-    #services .card-body {
-        min-height:400px;
-    }
+  /* make all service cards the same height for consistency */
+  #services .card-body {
+    min-height: 400px;
+  }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-    /* make all service cards the same height for consistency */
-    #services .card-body {
-        min-height:350px;
-    }
-
+  /* make all service cards the same height for consistency */
+  #services .card-body {
+    min-height: 350px;
+  }
 }
