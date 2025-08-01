@@ -275,7 +275,6 @@ main.about-page {
 }
 
 .info-box {
-  background-color: none;
   padding: 1rem;
   border-left: 4px solid var(--secondary-color);
   margin-bottom: 2rem;
