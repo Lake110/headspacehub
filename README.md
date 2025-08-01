@@ -19,6 +19,8 @@
 11. [Technical Facts](#technical-facts)
 12. [Repository](#repository)
 13. [Credits](#credits)
+14. [Overall Review](#overall-review)
+15. [AI Tools in Development Process](#ai-development-tools)
 
 <a id="introduction"></a>
 
@@ -555,3 +557,57 @@ The website demonstrates exceptional performance metrics:
 - **Strong Accessibility Scores** (93-94) ensuring inclusive design
 - **No critical performance issues** identified in Lighthouse audits
 
+<a id="overall-review"></a>
+### Overall Review
+
+Overall, this project has gone well. I managed to combine aspects from all previous projects and some new things i have learnt online. 
+
+#### Positives:
+- Good Structure and Functionality.
+- the use of multiple pages that all seamlessly link together and perform to the desired level.
+- the use of more advanced bootstrap elements such as carousels and accordions show a good level of understanding.
+- the website adapts well to different screen sizes. 
+- the use of so many diffent pages with so many different layouts.
+- images are optimised and fit correctly.
+
+#### Negatives:
+- use of colour and overall theme.
+  - from the start there should have been a better colour scheme that was optimised for usablity.
+  - colours were changed at the very end to improve accessability.
+       - **To improve this in the future i will review along the way and publish early to iron out issues.**
+- boxes around text serve to break up screen and look basic. 
+  - the use of whites would have worked better as well as using more dynamic css and tools to display information.
+  - use more pictures and open space to break up the page.
+      - **To improve this in the future i will look at using more dynamic css and bootsrap tools as well as more thoroughly planning out my project.**
+- spent too much time on adding needless extra pages and usability when one page would have been suffient.
+  - overcomplicating the project led to juggling too many tasks at once and getting distracted.
+  - i felt i needed to show a wide range of feature in order to make the three days worth while. even though focusing on a small number of tasks and doing them well would make a better looking page.
+     - **improvements should be made to project planning and have a clear set of tasks to make a basic, fuctional, clean website and then build on top of that.**
+
+#### Future Project Additions:
+- incorperation of interactable calendars and tables.
+- implementing video and moving images into the project.
+- the use of more advanced bootstrap items such as Toasts, Spinners, Modal, Progress bars.
+- use entire colour pallets from the get go and maybe play with light and dark mode functionality.
+
+<a id="ai-development-tools"></a>
+## AI Tools in Development Process
+
+Throughout this project, AI tools were strategically leveraged to enhance the development workflow and code quality:
+
+### Code Generation & Assistance
+- **GitHub Copilot** was used to generate HTML structure templates and CSS styling patterns, significantly speeding up initial page creation
+- AI-assisted code completion helped implement Bootstrap components and responsive grid layouts efficiently
+- Automated generation of semantic HTML markup improved accessibility compliance
+
+### Debugging & Code Review
+- AI tools identified potential accessibility issues in color contrast and semantic markup
+- Automated code analysis helped resolve CSS conflicts and duplicate rule definitions
+- Performance optimization suggestions led to improved Lighthouse scores across all pages
+
+### Documentation & Optimization
+- AI assistance streamlined the creation of comprehensive README documentation
+- Automated performance analysis provided insights for image optimization and CSS efficiency improvements
+- Content organization and user story development benefited from AI-guided best practices
+
+This AI-enhanced workflow resulted in faster development cycles, improved code quality, and better overall project outcomes while maintaining focus on user-centered design principles.
